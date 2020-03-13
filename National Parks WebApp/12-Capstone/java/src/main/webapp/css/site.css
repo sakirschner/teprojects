@@ -1,0 +1,340 @@
+/*effects all*/
+body {
+	margin: 0px;
+	font-family: 'Nunito', sans-serif;
+}
+
+section {
+	width: 85%;
+	margin: auto;
+}
+
+h1, h2, h3, h4, p {
+	color: #484848;
+}
+
+h2 {
+	margin-top: -10px;
+}
+
+a {
+	text-decoration: none;
+	color :#26abff;	
+}
+
+h1 {
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.myButton {
+	background-color:#26acff;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Nunito', sans-serif;
+	font-size:16px;
+	padding:10px 15px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#1975d2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*header*/
+.logo {
+	width: 20%;
+	padding: 12px 0 10px 30px;
+	margin-bottom: -15px;
+}
+
+.headerDiv {
+	background: #26abff;
+	height: 50px;
+}
+
+.headerDiv>ul {
+	margin-left: 90px;
+	padding-top: 12px;
+}
+
+.headerDiv>ul>li {
+	display: inline-block;
+	margin: 0 30px 0 15px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.headerDiv>ul>li>a {
+	color: #ffffff;
+}
+
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.main {
+	padding: 16px;
+	margin-top: 160px;
+	margin-bottom:25px;
+}
+
+/*parks*/
+.parkContainer {
+	display: flex;
+}
+
+.parkContainer>div {
+	padding: 30px;
+}
+
+.parkContainer>div>div {
+	width: 400px;
+	height: 290px;
+	overflow: hidden;
+	border: 5px solid #ffffff;
+	box-shadow: 5px 5px 17px #808080;
+}
+
+.parkContainer>div>div>a>img {
+	margin: -22px 0px -16px -30px;
+}
+
+/*park details*/
+
+.weatherForm {
+	padding-top: 20px;
+}
+
+.element {
+	height: 50px;
+	width: 80px;
+	margin: 10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(to bottom, #57c1eb 0%, #246fa8 100%);
+}
+
+.elements {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.white {
+	fill: #FFFFFF
+}
+
+.gray {
+	fill: #E0E0E0
+}
+
+.yellow {
+	fill: #FFEB3B
+}
+
+.weatherContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.upperWeather {
+	padding: 15px;
+}
+
+.weatherContainer>div {
+	width: 18.6%;
+	background: #26abff;
+	border-radius: 5px;
+}
+
+#day {
+	text-align: left;
+	margin-top: 50px;
+}
+
+#right {
+	text-align: right;
+	margin-top: -13px;
+}
+
+.response {
+	margin-top: 16px;
+	margin-bottom: -13px;
+}
+
+.responseDiv {
+	background-color: #1974D2;
+	height: 120px;
+	border-radius: 0 0 5px 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.responseDiv>p>i {
+	color: #ffffff;
+}
+
+.detailHeader {
+	display: flex;
+	margin-top: 30px;
+}
+
+.parkHeader {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.parkTitle {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.parkTitle2 {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px;
+}
+
+.quote {
+	padding-top: 50px;
+	margin: 0px;
+	font-size: 18px;
+}
+
+.source {
+	text-align: right;
+	margin: 0px;
+	font-size: 18px;
+}
+
+.stats {
+	list-style-type: disc;
+	font-size: 18px;
+}
+
+.detailDescription {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+/*favorites page*/
+
+#number {
+	color: #26abff;
+}
+
+.voterDescription {
+	margin: 30px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.background {
+	background-image: url("https://i.imgur.com/0bWHb1p.jpg");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (min-width: 1300px) {
+  .background {
+    height:864px;
+  }
+  .main {
+  margin-top:200px;
+  }
+}
+
+@media (min-height: 670px) {
+  .background {
+    height:864px;
+  }
+   .main {
+  margin-top:200px;
+  }
+}
+
+.darken-overlay div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wholeForm {
+	text-align:center;
+	margin-bottom: 40px;
+}
+
+.favoriteForm {
+    margin: auto;
+    color: #ffffff;
+    padding-top: 100px;	
+    width: 50%;
+}
+
+.favoriteHeader {
+	text-align:center;
+	color: #ffffff;
+	margin-bottom: -80px;
+	margin-top: 10px;
+}
+
+label {
+	font-size:20px;
+	font-weight: 500;
+}
+
+#park {
+	width: 543px;
+	height: 30px;
+    margin-bottom: 10px;
+}
+
+#email{
+	width: 530px;
+	height: 25px;	
+	margin-bottom: 4px;
+}
+
+#residence{
+	width: 416px;
+	height: 30px;
+    margin-bottom: 10px;	
+}
+
+/*footer*/
+footer{
+	padding:10px 0;
+	width:100%;
+	background: #1974D2;
+}
+
+footer>p {
+	color:#ffffff;
+	font-size:13px;
+	text-align:center;
+	margin: 0px;
+	padding: 2px;
+}
+
+footer>p>a {
+	color:#ffffff;
+	text-decoration: underline;
+}
