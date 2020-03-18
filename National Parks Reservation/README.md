@@ -1,4 +1,6 @@
-# Module 2 Capstone - National Park Campsite Reservation  Congratulations! You did such a great job on your previous application we want you to build our new campsite reservation application. We are tasking you to build a command line driven application that our National Park Service can use to book campsite reservations.  
+# Module 2 Capstone - National Park Campsite Reservation  
+
+Congratulations! You did such a great job on your previous application we want you to build our new campsite reservation application. We are tasking you to build a command line driven application that our National Park Service can use to book campsite reservations.  
  
 The requirements for your application are listed below: 
  
